@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: white;
+    background-color: #ffffff;
     color: #333333;
     margin: 0;
     line-height: 1.6;
@@ -9,13 +9,15 @@ body {
 
 /* Header */
 header {
-    background-color: #d9f1ff;
-    padding: 40px 20px;
+    background-color: #d9f2ff;
+    padding: 50px 20px;
+    border-bottom: 3px solid #a9dff5;
 }
 
 header h1 {
-    color: #176b87;
-    margin-bottom: 10px;
+    color: #126782;
+    font-size: 38px;
+    margin: 0 0 10px 0;
 }
 
 header p {
@@ -24,59 +26,67 @@ header p {
 
 /* Navigation */
 nav {
-    background-color: white;
     padding: 20px;
-    border-bottom: 1px solid #c5e7f5;
+    background-color: #ffffff;
 }
 
 nav a {
-    color: #176b87;
+    color: #126782;
     text-decoration: none;
-    margin: 0 10px;
     font-weight: bold;
+    margin: 0 12px;
 }
 
 nav a:hover {
-    color: #0b4f6c;
+    color: #0077a3;
 }
 
-/* Section Boxes */
+/* Each Section */
 section {
+    width: 75%;
+    max-width: 750px;
+    margin: 35px auto;
+    padding: 35px;
     background-color: #dff4ff;
-    width: 80%;
-    max-width: 800px;
-    margin: 30px auto;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px #c5e3ef;
+    border: 2px solid #a9dff5;
+    border-radius: 18px;
+    box-shadow: 0 5px 15px rgba(50, 130, 160, 0.15);
 }
 
-/* Section Headings */
-h2 {
-    color: #176b87;
+/* Section Title */
+section h2 {
+    color: #126782;
     font-size: 28px;
-    margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 25px;
 }
 
-/* Sub Headings */
-h3 {
-    color: #2384a5;
+/* Content inside sections */
+section h3 {
+    color: #177c9d;
+    margin-top: 20px;
+}
+
+section p {
+    max-width: 650px;
+    margin: 10px auto;
 }
 
 /* Lists */
 ul {
-    list-style-position: inside;
-    padding: 0;
+    display: inline-block;
+    text-align: left;
+    margin: 10px auto;
 }
 
-/* Links */
-a {
-    color: #176b87;
+/* Contact Links */
+section a {
+    color: #126782;
 }
 
 /* Footer */
 footer {
-    background-color: #d9f1ff;
-    padding: 20px;
-    margin-top: 30px;
+    background-color: #d9f2ff;
+    padding: 25px;
+    margin-top: 40px;
 }
