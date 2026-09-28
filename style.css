@@ -1,14 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5fbff;
+    background-color: white;
     color: #333333;
     margin: 0;
     line-height: 1.6;
+    text-align: center;
 }
 
+/* Header */
 header {
-    background-color: #dff3ff;
-    text-align: center;
+    background-color: #d9f1ff;
     padding: 40px 20px;
 }
 
@@ -21,11 +22,11 @@ header p {
     margin: 5px;
 }
 
+/* Navigation */
 nav {
     background-color: white;
-    text-align: center;
-    padding: 15px;
-    border-bottom: 1px solid #cce7f5;
+    padding: 20px;
+    border-bottom: 1px solid #c5e7f5;
 }
 
 nav a {
@@ -39,32 +40,43 @@ nav a:hover {
     color: #0b4f6c;
 }
 
+/* Section Boxes */
 section {
-    background-color: white;
-    margin: 25px auto;
-    padding: 25px;
-    max-width: 850px;
-    border-radius: 10px;
-    box-shadow: 0 2px 8px #d6eaf2;
+    background-color: #dff4ff;
+    width: 80%;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px #c5e3ef;
 }
 
+/* Section Headings */
 h2 {
     color: #176b87;
-    border-bottom: 2px solid #b9e3f5;
-    padding-bottom: 8px;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
+/* Sub Headings */
 h3 {
     color: #2384a5;
 }
 
+/* Lists */
+ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
+/* Links */
 a {
     color: #176b87;
 }
 
+/* Footer */
 footer {
-    background-color: #dff3ff;
-    text-align: center;
+    background-color: #d9f1ff;
     padding: 20px;
     margin-top: 30px;
 }
